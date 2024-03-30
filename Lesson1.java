@@ -58,29 +58,32 @@ public class Lesson1 {
         System.out.println();
     }
 
-    public static boolean sravnenie(int a, int b) {
+   public static boolean sravnenie(int a, int b) {
         System.out.println("sravnenie:");
         int c = a + b;
-        if (c >= 10 && c <= 20) {return true;}
-        else {
+        if (c >= 10 && c <= 20) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);}
             return false;
+
+
+
+    }
+
+
+
+    
+ public static boolean sravTrue(int a) {
+        System.out.println("sravTrue:");
+        if (a > 0) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
         }
 
-
-
-
+        return false;
     }
-
-    public static boolean sravTrue() {
-        System.out.println("sravTrue");
-        int a = 0;
-        if (a>0){ return true;}
-        else {return false;}
-
-
-
-    }
-
 
     public static void polojit() {
         System.out.println("polojit:");
