@@ -10,7 +10,7 @@ public class Lesson1 {
         compareNumbers();
         sravnenie(1, 10);
         polojit();
-        sravTrue();
+        sravTrue(2);
         visokos(2024);
         printName();
         massiv1();
