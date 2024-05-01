@@ -29,6 +29,7 @@ public class Main {
         boolean arrearsPhone=!driver.findElements(By.xpath("//*[@id=\"score-arrears\"]")).contains("Номер счета на 2073");
         boolean arrearsSum=!driver.findElements(By.xpath("//*[@id=\"arrears-sum\"]")).contains("Сумма");
         boolean arrearsMail=!driver.findElements(By.xpath("//*[@id=\"arrears-email\"]")).contains("E-mail для отправки чека");
+        //Пункт 2
         WebElement phonenumber=driver.findElement(By.xpath("//*[@class=\"phone\"]"));
         phonenumber.sendKeys("297777777", Keys.ENTER);
         WebElement money=driver.findElement(By.xpath("//*[@class=\"total_rub\"]"));
